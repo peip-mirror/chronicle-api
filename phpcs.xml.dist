@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ruleset name="Lookyman/Chronicle">
     <rule ref="vendor/lookyman/coding-standard/LookymanCodingStandard/ruleset-7.0.xml"/>
+    <rule ref="SlevomatCodingStandard.Namespaces.ReferenceUsedNamesOnly">
+        <properties>
+            <property name="allowFullyQualifiedGlobalConstants" value="true"/>
+            <property name="allowFullyQualifiedGlobalFunctions" value="true"/>
+        </properties>
+    </rule>
 </ruleset>
